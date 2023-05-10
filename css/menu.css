@@ -1,0 +1,110 @@
+body{
+	background-image:url("../OBCENA_IMAGES_CSAD/menu/menu_bg.PNG");
+	background-repeat:no-repeat;
+	background-size:cover;
+	
+}
+.extra{
+	text-align:center;
+}
+.patty1{
+	height:100px;
+	width:100px;	
+}
+.patty2{
+	height:100px;
+	width:100px;
+}
+.coleslaw{
+	height:100px;
+	width:100px;
+}
+.cheese{
+	height:100px;
+	width:100px;
+}
+.bacon{
+	height:100px;
+	width:100px;
+}
+.onions{
+	height:100px;
+	width:100px;
+}
+.tomato{
+	height:100px;
+	width:100px;
+}
+.cucumber{
+	height:100px;
+	width:100px;
+}
+.wheat{
+	height:100px;
+	width:100px;
+}
+.white{
+	height:100px;
+	width:100px;
+}
+.carbonara,.pesto{
+	height:50px;
+	width:100px;
+}
+
+.spaghetti{
+	height:50px;
+	widthL100px;
+}
+
+.lefty{
+	font-family:Trebuchet ms, sans serif;
+	font-size:20px;
+	padding-left:10px;
+	text-align:center;
+}
+.main_table{
+	padding-left:30px;
+	padding-right:30px;
+	padding-top:20px;
+	padding-bottom:30px;
+	box-shadow:4px 5px 5px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:white;
+	
+}
+.sub_table{
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:15px;
+	margin-top:15px;
+}
+td{
+	font-family:Verdana, sans-serif;
+}
+input[type=submit],input[type=reset]{
+	color:white;
+	margin-right:50px;
+	font-family:Trebuchet ms, sans-serif;
+	font-size:30px;
+	border:none;
+	background-color:#FF9B19;
+	width:180px;
+	height:40px;
+	cursor:pointer;
+	display:inline-block;
+}
+input[type=submit]:hover, input[type=reset]:hover{
+	background-color:#EF9219;
+}
+.bottom{
+	border-bottom:5px solid #FF9B19;
+}
+.bottom_lefty{
+	border-bottom:5px solid #FF9B19;
+	font-family:Trebuchet ms, sans serif;
+	font-size:20px;
+	padding-left:10px;
+	text-align:center;
+}

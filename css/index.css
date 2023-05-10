@@ -1,0 +1,85 @@
+
+body{
+	background-image: url('../OBCENA_IMAGES_CSAD/index/index_bg.PNG');
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+table,td{
+	border: 0px solid black;
+}
+.box_one{
+	height:100px;
+	width:100%;
+	text-align:left;
+	vertical-align:top;
+}
+.box{
+	padding-left:50px;
+}
+.sub_box{
+	padding-bottom:9px;
+	display:inline-block;
+	text-align:center;
+	background-color:#f5b945;
+	border-radius:50px 50px 50px 50px;
+	width:50%;
+	min-width:50%;
+	height:60px;
+	margin:0px;
+	overflow:hidden;
+}
+.sub_box:hover{
+	background-color:#DFA52F;
+}
+.icon{
+	margin-top:10px;
+	margin-left:20px;
+	width:40px;
+	height:30px;
+	display:inline-block;
+
+	
+}
+.arrow{
+	padding-top:5px;
+	height:20px;	
+	width:30px;
+}
+.header{
+	font-family:trebuchet ms, sans-serif;
+	color:black;
+	font-size:50px;
+}
+.description{
+	margin-bottom:10px;
+	font-family:Tahoma,sans-serif;
+	color:black;
+}
+
+.text_one{
+	font-family:Verdana;
+	display:inline-block;
+	padding-top:13px;
+	color:white;
+	height:100px;
+	font-size:30px;
+	
+}
+.box_two{
+	width:50%;
+	text-align:right;
+	min-width:50;
+}
+
+.burger{
+	min-width:500px;
+	height:300px;
+	width:550px;
+	filter:drop-shadow(2px 2px 2px #222);
+}
+.top{
+	margin-left:10px;
+	margin-bottom:0;
+	overflow:none;
+	font-family:Verdana;
+}

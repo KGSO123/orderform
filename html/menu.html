@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<meta charset = "utf-8">
+		<title>Food Menu</title>
+		<link rel="stylesheet" type="text/css" href = "../css/menu.css">
+	</head>
+	<body>
+		<form method = "POST" action = "finish.html">
+			<table class = "main_table">
+			<tr>
+			<th class = "bottom">Burger</th>
+			<th class = "bottom">Extra</th>
+			</tr>
+				<tr>
+					<td class = "bottom">
+					<table class = "sub_table">
+						<td>
+							<input type = "radio" id = "single_patty" name = "patty" value = "single_patty" required>
+							<label for = "single_patty">Single Patty</label><br>
+							<label for = "single_patty"><img src = "../OBCENA_IMAGES_CSAD/menu/patty1.PNG" class = "patty1"></label>
+						</td>
+						<td>
+							<input type = "radio" id = "double_patty" name = "patty" value = "double_patty" required>
+							<label for = "double_patty">Double Patty</label><br>
+							<label for = "double_patty"><img src = "../OBCENA_IMAGES_CSAD/menu/patty2.PNG" class = "patty2"></label>
+						</td>
+					</table class = "sub_table">
+					</td>
+					<td class = "bottom">
+					<table class = "sub_table">
+						<tr>
+							<td>
+								<input type = "checkbox" id = "coleslaw" name = "extra" value = "coleslaw">
+								<label for "coleslaw">Coleslaw</label><br>
+								<label for = "coleslaw"><img src = "../OBCENA_IMAGES_CSAD/menu/coleslaw.PNG" class = "coleslaw"></label>
+							</td>
+							<td>
+								<input type = "checkbox" id = "cheese" name = "extra" value = "cheese">
+								<label for = "cheese">Cheese</label><br>
+								<label for = "cheese"><img src = "../OBCENA_IMAGES_CSAD/menu/cheese1.PNG" class = "cheese"></label><br>
+							</td>
+							<td>
+								<input type = "checkbox" id = "bacon" name = "extra" value = "bacon">
+								<label for = "bacon">Bacon</label><br>
+								<label for = "bacon"><img src = "../OBCENA_IMAGES_CSAD/menu/bacon.PNG" class = "bacon"></label><br>
+							</td>
+						</tr>
+							<tr>
+								<td>
+									<input type = "checkbox" id = "onions" name = "extra" value = "onions">
+									<label for ="onions">Onions</label><br>
+									<label for = "onions"><img src = "../OBCENA_IMAGES_CSAD/menu/onions.PNG" class = "onions"></label>
+								</td>
+								<td>
+									<input type = "checkbox" id = "tomatoes" name = "extra" value = "tomatoes">
+									<label for = "tomatoes">Tomato</label><br>
+									<label for = "tomatoes"><img src = "../OBCENA_IMAGES_CSAD/menu/tomato.PNG" class = "tomato"></label>
+								</td>
+								<td>
+									<input type = "checkbox" id = "cucumber" name = "extra" value = "cucumber">
+									<label for = "cucumber">Cucumber</label><br>
+									<label for = "cucumber"><img src = "../OBCENA_IMAGES_CSAD/menu/cucumber.PNG" class = "cucumber"></label>
+								</td>
+							</tr>
+						</table class = "sub_table">
+					</td>
+				</tr>
+				
+				<td class = "bottom_lefty" >Choice of Bun</td>
+				<td class = "bottom">
+					<table class = "sub_table">
+						<tr>
+							<td>
+								<input type = "radio" id = "wheat" name = "bun" value = "wheat"required>
+								<label for = "wheat">Wheat Bun</label><br>
+								<label for = "wheat"><img src = "../OBCENA_IMAGES_CSAD/menu/wheatbun.PNG" class = "wheat"></label>
+							</td>
+							<td>
+								<input type = "radio" id = "white" name = "bun" value = "white"required>
+								<label for = "white">White Bun</label><br>
+								<label for = "white"><img src = "../OBCENA_IMAGES_CSAD/menu/whitebun.PNG" class = "white"></label>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<input type = "radio" id = "honey" name = "type" value = "honey"required>
+								<label for = "honey">Honey Oat</label><br>
+							</td>
+							<td>
+								<input type = "radio" id = "sugar" name = "type" value = "sugar"required>
+								<label for = "sugar">Sugar Free</label><br>
+							</td>
+						</tr>
+					</table class = "sub_table">
+				</td>
+				<tr>
+					<td class = "bottom_lefty">Pasta</td>
+					<td class = "bottom">
+						<table class = "sub_table">
+							<tr>
+								<td>
+									<input type = "radio" id = "carbonara" name = "sauce" value = "carbonara"required>
+									<label for = "carbonara">Carbonara</label><br>
+									<label for = "carbonara"><img src = "../OBCENA_IMAGES_CSAD/menu/carbonara.PNG" class = "carbonara"></label>
+								</td>
+								<td>
+									<input type = "radio" id = "pesto" name = "sauce" value = "pesto"required>
+									<label for = "pesto">Pesto</label><br>
+									<label for = "pesto"><img src = "../OBCENA_IMAGES_CSAD/menu/pesto.PNG" class = "pesto"></label><br>
+								</td>
+								<td>
+									<input type = "radio" id = "spaghetti" name = "sauce" value ="spaghetti"required>
+									<label for = "spaghetti">Spaghetti</label><br>
+									<label for = "spaghetti"><img src = "../OBCENA_IMAGES_CSAD/menu/spaghetti.PNG" class = "spaghetti"></label><br>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input type = "checkbox" id = "extra_carbo" name = "extra_sauce" value = "extra_carbo">
+									<label for = "extra_carbo">Extra Carbonara Sauce</label>
+								</td>
+								<td>
+									<input type = "checkbox" id = "extra_pesto" name = "extra_sauce" value = "extra_pesto">
+									<label for = "extra_pesto">Extra Pesto Sauce</label>
+								</td>
+								<td>
+									<input type = "checkbox" id = "extra_spag" name = "extra_sauce" value = "extra_spag">
+									<label for = "extra_spag">Extra Spaghetti Sauce</label>
+								</td>		
+								
+								</tr>
+						</table class = "sub_table">
+					</td>
+				</tr>
+				<tr>
+					<td class = "bottom_lefty">
+						Fries
+					</td>
+					<td class = "bottom">
+						<table class = "sub_table">
+							<tr>
+								<td>
+									<label for = "fries">Box of Fries:</label>
+								</td>
+								<td>
+									<input type = "number" id = "fries" name = "quantity" min = "0" max = "99" required>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for = "size">Size: </label>
+								</td>
+								<td>
+									<input type = "text" id = "size" name = "size" placeholder = "Small, Medium, Large" >
+								</td>
+							</tr>
+								<tr>
+									<td>
+										Flavor:<br></div>
+									</td>
+									<td>
+										<input type = "checkbox" id = "cheese2" name = "dip" value = "cheese">
+										<label for = "cheese2">Cheese</label>
+										<input type = "number" id = "barbecue_num" name = "qty" min = "0" max = "99" placeholder = "QTY"><br>
+										
+										<input type = "checkbox" id = "barbecue" name = "dip" value = "barbecue"> 
+										<label for = "barbecue">Barbecue</label>
+										<input type = "number" id = "cheese_num" name = "qty" min = "0" max = "99" placeholder = "QTY"><br>
+										
+										<input type = "checkbox" id = "sour cream" name = "dip" value = "sour_cream">
+										<label for = "sour cream">Sour Cream</label>
+										<input type = "number" id = "sour_cream_num" name = "qty" min = "0" max = "99" placeholder = "QTY">
+
+									</td>
+								</tr>
+						</table class = "sub_table">
+					</td>
+				</tr>
+				<tr>
+					<td class = "lefty">Drinks</td>
+					<td>
+						<table class = "sub_table">
+							<tr>
+								<td>
+								<label for "qty_drinks">How many</label>
+								</td>
+								<td>
+								<input type = "number" id = "qty_drinks" name = "Amount of Drinks" min = "0" max = "99" required>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									What kind of drink:
+								</td>
+								<td>
+									<input type = "checkbox" id = "sd" name = "drink" value = "sd">
+									<label for = "sd">Soft Drinks</label><br>
+									<input type = "checkbox" id = "juice" name = "drink" value = "juice">
+									<label for = "juice">Juice</label><br>
+									<input type = "checkbox" id = "water" name = "drink" value = "water">
+									<label for = "Water">Water</label>
+								</td>
+								<td>
+									
+									<input type = "number" name = "Amount of Soft Drinks" min = "0" max = "99" placeholder = "QTY" required><br>
+									<input type = "number" name = "Amount of Juice" min = "0" max = "99" placeholder = "QTY" required><br>
+									<input type = "number" name = "Amount of Water" min = "0" max = "99" placeholder = "QTY" required>
+								</td>
+							</tr>
+						</table class = "sub_table">
+					</td>
+				</tr>
+				<tr>
+					<th colspan = "2">
+					<input type = "reset" id = "reset" value = "Reset">
+						<input type = "submit" id = "submit" value = "Submit">
+					</th>
+					
+				</tr>
+		</table class = "sub_table">
+	</body>
+
+</html>

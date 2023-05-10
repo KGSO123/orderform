@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+	<meta charset="utf-8">
+	<title>Customer</title>
+	<link rel="stylesheet" type="text/css" href="../css/customer.css">
+	</head>
+		<body>
+		 <table>
+		 <form method = "post" action = "../html/congrats.html">
+			<thead>
+				<tr>
+					<th colspan = "2">Customer Information</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class = "left_side"><label for = "fullname">Full Name:</label></td>
+					<td><input type = "text" id = "fullname" name = "fullname" size = "30" placeholder = "Input your full name here" maxlength = "50" required></td>
+				</tr>
+				<tr>
+					<td class = "left_side"><label for = "sex">Sex:</label></td>
+					<td>
+						<input type = "radio" id = "male" name = "gender" value = "male">
+						<label for = "male">Male</label><br>
+						<input type = "radio" id = "female" name = "gender" value = "female">
+						<label for = "female">Female</label><br>
+						<input type = "radio" id = "other" name = "gender" value = "other" CHECKED>
+						<label for = "other">Other</label><br>
+					</td>
+				</tr>
+				<tr>
+					<td class = "left_side"><label for = "address">Complete Address:</label></td>
+					<td>
+						<input type = "text" id = "address" name = "address" placeholder = "Input here your address">
+						<div class = "format">Example: J. P. Rizal Street, San Roque</div>
+					</td>
+					
+				</tr>
+				<tr><!--asking for contact number(cellphone number)-->
+					<td class = "left_side"><label for = "cn">Contact Number:</label></td>
+					<td>
+						<input type = "tel" id = "cn" name = "cn" pattern= "[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder = "123-456-7890" required>
+						<div class = "format">Example: 936-321-4567</div>
+					</td>
+				</tr>
+				<tr>
+					<td class = "left_side"><label for = "email">Email Address:</label></td>
+					<td><input type = "email" id = "email" name = "email" placeholder = "example@mail.com" required></td>
+				</tr>
+				<tr>
+					<td class = "left_side"><label for = "place">How to get there:</label></td>
+					<td><textarea id = "place" name = "place" rows = "10" cols = "30" placeholder = "Instructions are placed here" style = "resize:none;" required></textarea></td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<th colspan = "2">
+						<input type = "reset" id = "reset" value = "Reset">
+						<input type = "submit" id = "submit" value = "Submit">
+					</th>	
+					
+				</tr>
+			</tfoot>
+		 </table>
+		</body>
+</html>

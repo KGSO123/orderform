@@ -1,0 +1,53 @@
+body{
+	background-image:url("../OBCENA_IMAGES_CSAD/customer/customer_bg.PNG");
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+th{
+	font-family:Verdana,sans-serif;
+}
+input[type=email],input[type=tel],input[type=text], textarea{
+        padding:12px 20px;
+        margin: 8px 0;
+        display:inline-block;
+        border:1px solid #ccc;
+        border-radius:4px;
+        box-sizing:border-box;
+      }
+input[type=submit],input[type=reset]{
+	color:white;
+	margin-right:30px;
+	margin-left:30px;
+	font-family:Trebuchet ms, sans-serif;
+	font-size:30px;
+	border:none;
+	background-color:#FF9B19;
+	width:180px;
+	height:40px;
+	cursor:pointer;
+	display:inline-block;
+}
+input[type=submit]:hover, input[type=reset]:hover{
+	background-color:#EF9219;
+}
+table{
+		background-color:white;
+        font-size:15px;
+        margin-left:auto;
+		margin-right:auto;
+		margin-top:30px;
+		border-radius:25px;
+		padding:15px;
+		box-shadow:3px 5px 10px #353535; 
+      }
+.left_side{
+	height:45px;
+	width:150px;
+}
+td{
+	font-family:Verdana,sans-serif;
+	
+}
+.format{
+	font-size:10px;
+}
